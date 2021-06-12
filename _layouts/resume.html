@@ -58,9 +58,31 @@
 
         {% for job in site.data.experience %}
         <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
-          <h4 class="resume-item-details" itemprop="description">{{ job.position }} &bull; {{ job.duration }}</h4>
-          <p class="resume-item-copy">{{ job.summary }}</p>
+          <p><br />
+            <strong><span style="color: cadmiumgreen">INTUIT FUTURES (R&amp;D team)</span> (Feb 2019 - current)</strong></p>
+            <ul>
+            <li><p><strong>Federated Learning Platform</strong>: Create a Federated Learning platform to run all our machine learning models to secure each user’s personal accounting and bank details.</p></li>
+            <li><p><strong>Cerebro</strong>: a tool which provides real time insights about Intuit’s competitor products using public and social data.</p>
+            <ul>
+            <li><p>Built a server-less infrastructure which scrapes and processes nearly <strong>3.5 GB</strong> of data from LinkedIn, GlassDoor and 3rd party api’s like AppAnnie every month.</p></li>
+            <li><p>Built a service to get summary of customer reviews using <strong>KeyPhrase extraction model</strong> (using Parsing, Sent2Vec, Cosine Distance and MMR) and <strong>Sentiment Analysis</strong> (using VADER).</p></li>
+            <li><p>Built a customized Android application that <strong>detect trends and news</strong> about apps subscribed to by users.</p></li>
+            <li><p>Designed and built a rules-engine that <strong>detects anomalies</strong> in an app’s metrics (example: number of downloads).</p></li>
+            <li><p>Cerebro was pivotal in the <strong>$7.1 billion acquisition of Credit Karma by Intuit</strong> and multiple aquihires. It is used extensively by the Board members and Product Managers at Intuit to track market statistics.</p></li>
+            </ul></li>
+            <li><p><strong>Quickbooks Self-Help</strong>: It answers user queries based on our self-help articles and highlights the most relevant portion within the document.</p>
+            <ul>
+            <li><p>Built <strong>BERT Embeddings</strong> for <strong>Information Retrieval</strong> and a <strong>Bag-of-Words model</strong> for <strong>Information Extraction</strong>.</p></li>
+            <li><p>This <strong>increased</strong> the usage of <strong>self-help by 35%</strong> and <strong>decreased care calls by 66%</strong>.</p></li>
+            <li><p>Working on extending Quickbooks self-help skill for Alexa using speech recognition.</p></li>
+            </ul>
+            <p><strong><span style="color: cadmiumgreen">QUICKBOOKS (Product team)</span> (Aug 2017 - Jan 2019)</strong></p></li>
+            <li><p><strong>Digital Tax Experience for UK</strong>: Developed the Digital Tax experience for Quickbooks UK that was used by <strong>165k customers</strong> to file their taxes.</p></li>
+            <li><p><strong>MCS</strong>: Infrastructure for storing application configuration to make it variable across different dimensions of the product.</p>
+            <ul>
+            <li><p>Built a <strong>Recommender System</strong> to suggest products to consumers based on the products sold by similar retailers using a Graph database (Neo4j). This reduced the time taken to enter new products to seconds.</p></li>
+            </ul></li>
+            </ul>
         </div><!-- end of resume-item -->
         {% endfor %}
 
