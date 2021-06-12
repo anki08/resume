@@ -1,12 +1,12 @@
 # Degree
-- degree: Masters in Computer Science
+- degree: Online Masters in Computer Science
   uni: University of texas, Austin
   year: 2020 &mdash; present
   cgpa: 3.67
-  summary: If you had any meaningful roles at college, feel free to write about them here
+  # summary: If you had any meaningful roles at college, feel free to write about them here
 
-- degree: High School Diploma
-  uni: Springfield High School
-  year: 2004
-  award: Most likely to succeed
-  summary: You can choose to have either a single or multiple awards
+- degree: BTech in Computer Science
+  uni: national Institute of Technology, Durgapur
+  year: 2013 &mdash; 2017
+  cgpa: 8.54
+  # summary: You can choose to have either a single or multiple awards
