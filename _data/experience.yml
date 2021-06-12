@@ -3,11 +3,11 @@
 - company: Intuit
   position: Software Engineer 2 (R&D team) (Feb 2019 - current)
   duration: Oct, 2017 &mdash; Present
-  summary: As part of the R&D team, I have worked predominantly on NLP.
+  summary: 
   <ul class="resume-item-list">
-      <li> <b> Federated Learning Platform <b/>. <p> Create a Federated Learning platform to run all our machine learning models to secure each
-          user’s personal accounting and bank details.<p/> </li>
-      <li> <b> Cerebro<b/>. a tool which provides real time insights about Intuit’s competitor products using public and social data.</li>
+      <li>A project you are proud of</li>
+      <li>Another awesome project</li>
+      <li>or a team or department you worked with</li>
   </ul>
 
 # Software Engineer
@@ -15,5 +15,3 @@
   position: Software Engineer - QUICKBOOKS (Product team) (Aug 2017 - Jan 2019)
   duration:  Jun, 2010 &mdash; Sept, 2013
   summary: If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.
-
-
